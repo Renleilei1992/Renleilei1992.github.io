@@ -41,3 +41,11 @@ int main(int argc,char **argv)
 [string]: Hello Cpp!
 [string's address]:　0x400a2b
 ```
+
+### 可以尝试使用github的markdown功能
+- 使用方法其实很简单，创建一个仓库之后默认选择创建一个README.md，每次想要编辑markdown文档都可以修改这个.md文件
+- 然后使用preview功能查看和修改，然后将preview里面的内容复制到知乎编辑器中即可
+- 参考链接：
+- [简书](http://www.jianshu.com/p/q81RER/)
+- [github](https://github.com/Renleilei1992/Renleilei1992.github.io)
+- [知乎回答](https://www.zhihu.com/question/64637193/answer/222595072)
