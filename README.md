@@ -11,6 +11,28 @@ My personal blog website :)
     hello world
 ```
 
+### [20170831-00:11:15] 为什么Linux服务器之间已经配置SSH公钥之后仍需要密码?
+
+- 原因: 经过sshd -d调试，发现问题的原因在于登录的服务器默认目录权限被修改，不是umask默认的权限
+- 解决措施: 使用sudo /usr/sbin/sshd -d -p 1111指定端口1111进行sshd调试，另开启一个窗口连接该端口，使用 ssh -p 1111 localhostIP(此服务器IP)
+- 错误解决示例: 
+
+```
+    /*debug出的错误信息*/
+    Authentication refused: bad ownership or modes for directory /home/Renleilei
+
+    /*在服务器命令行输入*/
+    [Johnny@iZuf6d04ypm5jaypk9o6uhZ ~]$ ll /home/Renleilei/ -ld
+    drwxrwxrwx 9 Johnny root 4096 Aug 30 23:57 /home/Renleilei//
+    /*在服务器命令行输入*/
+    [Johnny@iZuf6d04ypm5jaypk9o6uhZ ~]$ umask
+    0002
+    /*系统默认权限是022,也即是755，目前是777权限*/
+    /*在服务器命令行输入*/
+    [Johnny@iZuf6d04ypm5jaypk9o6uhZ ~]$ chmod 775 /home/Renleilei/
+    
+```   
+- [CSDN](http://zouqingyun.blog.51cto.com/782246/1874410/)
 
 ### [20170830-00:32:07] 为什么C++中cout不能直接输出字符型指针的地址?
 
