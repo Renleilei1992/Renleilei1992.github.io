@@ -1,6 +1,8 @@
 # Renleilei1992.github.io
 My personal blog website :)
 
+- [个人主页](www.ye1996.cc)
+
 - Created by Renleilei
 - Created for recording some increments of knowledge in C/C++/HTML5/JavaScript/Linux/Shell ...
 - Maintain the Project and the server in AliCloud
