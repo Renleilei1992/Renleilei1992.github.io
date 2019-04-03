@@ -2,8 +2,6 @@
 My personal blog website :)  [www.ye1996.cc]
 
 ----
-- [个人主页](www.ye1996.cc)
-----
 - [![996.ICU](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 ----
 
