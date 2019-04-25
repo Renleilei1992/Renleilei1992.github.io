@@ -50,7 +50,8 @@
     </div>
 
     <header class="desktop-header">
-        <a class="main-menu hexagon" href="#"></a>
+        <a class="main-menu hexagon" href="#">
+        </a>
         <a href="#" class="logo-name">Johnny Rian</a>
     </header>
 
@@ -137,30 +138,6 @@
         </div>
     </div>
 
-	<!-- 简历区 -->
-	<div class="section container resume">
-		<div class="section-content">
-			<h2 class="section-title">Resume 个人简历</h2>
-			<div class="row">
-				<div class="img-wrap col-md-2 col-lg-2">
-                    <a href="work/resume.html">
-                        <img class="media-image" src="images/in-author-portrait_me.png" alt="">
-                </div>
-				<div class="img-wrap col-md-2 col-lg-2">
-                    <a href="work/resume.html">
-                        <img class="media-image" src="images/resume_simple.png" alt="">
-                </div>
-				<div class="img-wrap col-md-4 col-lg-4">
-                    <a href="work/resume.html">
-                        <img class="media-image" src="images/me_01.jpg" alt="">
-                </div>
-				<div class="img-wrap col-md-4 col-lg-4">
-                    <a href="work/resume.html">
-                        <img class="media-image" src="images/work_seat.jpg" alt="">
-                </div>
-			</div>
-		</div>
-	</div>
 
     <div class="section container works">
         <div class="section-content">
@@ -194,6 +171,153 @@
                     </a>
                     <a class="read-more" href="work/CIB.html">Read more...</a>
                 </div>
+
+<!--
+                <div class="img-wrap col-md-4 col-lg-4">
+                    <a href="work/sofy-vr.html">
+                        <img class="media-image" src="images/sv-cover.png" alt="">
+                        <h3 class="work-title">sofy vr</h3>
+                        <p>A VR shooting game to strengthen the brand identity</p>
+                    </a>
+                    <a class="read-more" href="work/sofy-vr.html">Read more...</a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="img-wrap col-md-4 col-lg-4">
+                    <a href="work/2nd-street.html">
+                        <img class="media-image" src="images/2n-cover.png" alt="">
+                        <h3 class="work-title">2nd street</h3>
+                        <p>Facilitating a reciprocal group among Chinese students</p>
+                    </a>
+                    <a class="read-more" href="work/2nd-street.html">Read more...</a>
+                </div>
+
+                <div class="img-wrap col-md-4 col-lg-4">
+                    <a href="work/inplace.html">
+                        <img class="media-image" src="images/ip-cover.png" alt="">
+                        <h3 class="work-title">Inplace</h3>
+                        <p>Connecting older adults with loving community</p>
+                    </a>
+                    <a class="read-more" href="work/inplace.html">Read more...</a>
+                </div>
+
+                <div class="img-wrap col-md-4 col-lg-4 mb-0">
+                    <a href="work/smart-closet.html">
+                        <img class="media-image" src="images/sc-cover.png" alt="">
+                        <h3 class="work-title">Smart Closet</h3>
+                        <p>Making dressing and storage seamlessly interactive</p>
+                    </a>
+                    <a class="read-more" href="work/smart-closet.html">Read more...</a>
+                </div>
+            </div>
+
+            <div class="button-wrap">
+                <button class="view-all hexagon">
+                    <i class="icon"></i>
+                </button>
+                <span>View all</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section container about">
+        <div class="section-content">
+            <h2 class="section-title">about</h2>
+
+            <div class="sub-section vebeen">
+                <h3 class="sub-section-title">What I've been up to</h3>
+                <div class="row">
+                    <div class="img-wrap col-md-4 col-lg-4">
+                        <a target="_blank" href="http://joeyqiang.lofter.com/tag/icon90">
+                            <img class="media-image" src="images/in-icon90.png" alt="">
+                            <h3 class="work-title">ICON 90 DAYS</h3>
+                            <p>A 90 day icon training program</p>
+                        </a>
+                        <a class="read-more" target="_blank" href="http://joeyqiang.lofter.com/tag/icon90">Read
+                            more...</a>
+                    </div>
+                    <div class="img-wrap col-md-4 col-lg-4">
+                        <a target="_blank" href="http://joeyqiang.lofter.com/tag/motion">
+                            <img class="media-image" src="images/in-web.gif" alt="">
+                            <h3 class="work-title">MOTION</h3>
+                            <p>Explore fancy and friendly motion effects</p>
+                        </a>
+                        <a class="read-more" target="_blank" href="http://joeyqiang.lofter.com/tag/web">Read more...</a>
+                    </div>
+                    <div class="img-wrap col-md-4 col-lg-4 mb-0">
+                        <a target="_blank" href="http://joeyqiang.lofter.com/tag/ui100">
+                            <img class="media-image" src="images/in-dailyui.png" alt="">
+                            <h3 class="work-title">DAILY UI</h3>
+                            <p>Become a better designer in 100 days</p>
+                        </a>
+                        <a class="read-more" target="_blank" href="http://joeyqiang.lofter.com/tag/ui100">Read
+                            more...</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-section-title">What my 5000+ view articles are</h3>
+
+                <ul class="text-list row">
+                    <li class="col-md-4 col-lg-4">
+                        <a target="_blank" href="https://medium.com/@JoeyQiang/the-animated-interface-a-user-experience-perspective-on-best-practices-in-ui-design-4520f024b801">
+                            <h3 class="article-title">A User Experience Perspective on Best Practices in UI Design</h3>
+                        </a>
+                        <a class="read-more" target="_blank" href="https://medium.com/@JoeyQiang/the-animated-interface-a-user-experience-perspective-on-best-practices-in-ui-design-4520f024b801">Read
+                            more...</a>
+                    </li>
+                    <li class="col-md-4 col-lg-4">
+                        <a target="_blank" href="https://zhuanlan.zhihu.com/p/28757791">
+                            <h3 class="article-title">How does Internet car look like</h3>
+                        </a>
+                        <a class="read-more" target="_blank" href="https://zhuanlan.zhihu.com/p/28757791">Read
+                            more...</a>
+                    </li>
+                    <li class="col-md-4 col-lg-4">
+                        <a target="_blank" href="http://www.jianshu.com/p/80e0877f20ab">
+                            <h3 class="article-title">UX improvement for NetEase Yanxuan</h3>
+                        </a>
+                        <a class="read-more" target="_blank" href="http://www.jianshu.com/p/80e0877f20ab">Read
+                            more...</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-section-title">What my peers say</h3>
+                <div class="row">
+                    <figure class="col-md-4 col-lg-4">
+                        <blockquote>"Joey has proven that he has a very capable skill-set that will benefit any
+                            marketing or advertising organization. Joey also fits in very easily and has an energy that
+                            is contagious; My team simply enjoys working with him."
+                        </blockquote>
+                        <figcaption>— Conrad Roberts, Interim Director & Business Manager, University Press of Kansas
+                            less
+                        </figcaption>
+                    </figure>
+                    <figure class="col-md-4 col-lg-4">
+                        <blockquote>"Joey is a bold and outspoken person who shows a lot of initiative in all of his
+                            project deliveries, and isn't afraid to share his point of view, which is exactly what we needed
+                            to come up with the best UX design for our clients."
+                        </blockquote>
+                        <figcaption>— Michelle OngClick, Client Partnership Lead at Mobile Now Group</figcaption>
+                    </figure>
+                    <figure class="col-md-4 col-lg-4">
+                        <blockquote>"Joey adapted quickly to our work environment and is always ready to jump right in
+                            on projects. If he doesn’t know how to do something, he is willing to research and learn on
+                            his own and also is great at collaborating and sharing ideas with the team."
+                        </blockquote>
+                        <figcaption>— Melissa Meyer, Creative Director at the University of Kansas, Center for
+                            Educational Testing and Evaluation
+                        </figcaption>
+                    </figure>
+                </div>
+-->
             </div>
         </div>
     </div>
